@@ -1,0 +1,10 @@
+﻿<AML>
+ <Item type="Sequence" id="B09BE573460D4B3D848EA6250F470041" action="add">
+  <initial_value>0</initial_value>
+  <name>Part Serial Number</name>
+  <pad_to>7</pad_to>
+  <pad_with>0</pad_with>
+  <prefix>101-</prefix>
+  <step>1</step>
+ </Item>
+</AML>

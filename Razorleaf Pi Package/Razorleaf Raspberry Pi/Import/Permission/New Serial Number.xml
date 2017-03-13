@@ -1,0 +1,97 @@
+﻿<AML>
+ <Item type="Permission" id="97BA455F2E614881951D04BB2E7B556E" action="add">
+  <is_private>0</is_private>
+  <name>New Serial Number</name>
+  <Relationships>
+   <Item type="Access" id="94294A036C72471F805334704CBF633D" action="add">
+    <can_change_access>0</can_change_access>
+    <can_delete>0</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>0</can_update>
+    <related_id keyed_name="All Employees" type="Identity">B32BD81D1AD04207BF1E61E39A4E0E13</related_id>
+    <show_permissions_warning>0</show_permissions_warning>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="New Serial Number" type="Permission">97BA455F2E614881951D04BB2E7B556E</source_id>
+   </Item>
+   <Item type="Access" id="B1F247FDBD814A3D9A04B568562070E3" action="add">
+    <can_change_access>1</can_change_access>
+    <can_delete>1</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="Aras PLM" type="Identity">56A96DA9E981481688563E2D14D5D878</related_id>
+    <show_permissions_warning>0</show_permissions_warning>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="New Serial Number" type="Permission">97BA455F2E614881951D04BB2E7B556E</source_id>
+   </Item>
+  
+   <Item type="Access" id="08E8358ED521473E98DC27D06BE0C9D0" action="add">
+    <can_change_access>1</can_change_access>
+    <can_delete>1</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="Creator" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>Creator</name>
+     </Item>
+    </related_id>
+    <show_permissions_warning>0</show_permissions_warning>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="New Serial Number" type="Permission">97BA455F2E614881951D04BB2E7B556E</source_id>
+   </Item>
+   <Item type="Access" id="12E0A44D765B440AA8DB2489A898D4A0" action="add">
+    <can_change_access>0</can_change_access>
+    <can_delete>0</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="Manager" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>Manager</name>
+     </Item>
+    </related_id>
+    <show_permissions_warning>0</show_permissions_warning>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="New Serial Number" type="Permission">97BA455F2E614881951D04BB2E7B556E</source_id>
+   </Item>
+   <Item type="Access" id="16BFCB29BA2F48D2A53AF886848048A1" action="add">
+    <can_change_access>1</can_change_access>
+    <can_delete>1</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="Owner" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>Owner</name>
+     </Item>
+    </related_id>
+    <show_permissions_warning>0</show_permissions_warning>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="New Serial Number" type="Permission">97BA455F2E614881951D04BB2E7B556E</source_id>
+   </Item>
+   <Item type="Access" id="2B041F0D1BAA45A09B5DD01F1486231E" action="add">
+    <can_change_access>0</can_change_access>
+    <can_delete>0</can_delete>
+    <can_discover>0</can_discover>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="QP Admin" type="Identity">66022731E81D4040A155F13CD083826A</related_id>
+    <show_permissions_warning>0</show_permissions_warning>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="New Serial Number" type="Permission">97BA455F2E614881951D04BB2E7B556E</source_id>
+   </Item>
+   <Item type="Access" id="186841BEB1CC495499E42D28E315B04D" action="add">
+    <can_change_access>0</can_change_access>
+    <can_delete>0</can_delete>
+    <can_discover>0</can_discover>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="Quality Planning" type="Identity">59C3B3567DA441529BB265886514C907</related_id>
+    <show_permissions_warning>0</show_permissions_warning>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="New Serial Number" type="Permission">97BA455F2E614881951D04BB2E7B556E</source_id>
+   </Item></Relationships>
+ </Item>
+</AML>

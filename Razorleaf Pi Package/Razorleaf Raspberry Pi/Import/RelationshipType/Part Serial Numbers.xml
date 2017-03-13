@@ -1,0 +1,61 @@
+﻿<AML>
+ <Item type="RelationshipType" id="D7DFBD0594284C0AB991C22C6519FCAB" action="add" dependencyLevel="0">
+  <auto_search>1</auto_search>
+  <behavior>float</behavior>
+  <copy_permissions>0</copy_permissions>
+  <create_related>0</create_related>
+  <hide_in_all>0</hide_in_all>
+  <inc_rel_key_name>1</inc_rel_key_name>
+  <inc_related_key_name>1</inc_related_key_name>
+  <is_list_type>0</is_list_type>
+  <label xml:lang="en">Serial Numbers</label>
+  <name>Part Serial Numbers</name>
+  <new_show_related>0</new_show_related>
+  <related_id keyed_name="Serial Number" type="ItemType" name="Serial Number">F3B040F964044F02A472BBA79172DFEE</related_id>
+  <related_notnull>0</related_notnull>
+  <related_option>2</related_option>
+  <relationship_id keyed_name="Part Serial Numbers" type="ItemType" name="Part Serial Numbers">
+   <Item type="ItemType" id="03E97CC651EC4BE0923B787657DBCD41" action="add">
+    <allow_private_permission>1</allow_private_permission>
+    <auto_search>0</auto_search>
+    <enforce_discovery>0</enforce_discovery>
+    <hide_where_used>0</hide_where_used>
+    <implementation_type>table</implementation_type>
+    <instance_data>PART_SERIAL_NUMBERS</instance_data>
+    <is_dependent>0</is_dependent>
+    <is_relationship>1</is_relationship>
+    <is_versionable>0</is_versionable>
+    <manual_versioning>0</manual_versioning>
+    <name>Part Serial Numbers</name>
+    <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+    <show_parameters_tab>1</show_parameters_tab>
+    <unlock_on_logout>0</unlock_on_logout>
+    <use_src_access>1</use_src_access>
+    </Item>
+  </relationship_id>
+  <sort_order>610</sort_order>
+  <source_id keyed_name="Part" type="ItemType" name="Part">4F1AC04A2B484F3ABA4E20DB63808A88</source_id>
+ </Item>
+ <Item type="ItemType" id="03E97CC651EC4BE0923B787657DBCD41" action="edit">
+  <Relationships>
+   <Item type="Property" action="edit" where="source_id='03E97CC651EC4BE0923B787657DBCD41' and name='generation'">
+    <column_alignment>left</column_alignment>
+    <data_type>integer</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <name>generation</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>2432</sort_order>
+    <source_id keyed_name="Part Serial Numbers" type="ItemType" name="Part Serial Numbers">03E97CC651EC4BE0923B787657DBCD41</source_id>
+    <track_history>0</track_history>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="View" action="delete" where="source_id='03E97CC651EC4BE0923B787657DBCD41'"></Item>
+ <Item type="Form" action="delete" where="name='Part Serial Numbers'"></Item>
+</AML>

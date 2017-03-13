@@ -1,0 +1,108 @@
+﻿<AML>
+ <Item type="ItemType" id="61C3592E4B894E0CAC157C2BB7ADEA47" action="add">
+  <allow_private_permission>1</allow_private_permission>
+  <auto_search>0</auto_search>
+  <enforce_discovery>1</enforce_discovery>
+  <hide_where_used>0</hide_where_used>
+  <implementation_type>table</implementation_type>
+  <instance_data>ASSEMBLER</instance_data>
+  <is_dependent>0</is_dependent>
+  <is_relationship>0</is_relationship>
+  <is_versionable>0</is_versionable>
+  <label xml:lang="en">Assembler</label>
+  <label_plural xml:lang="en">Assemblers</label_plural>
+  <manual_versioning>0</manual_versioning>
+  <name>Assembler</name>
+  <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+  <show_parameters_tab>1</show_parameters_tab>
+  <unlock_on_logout>0</unlock_on_logout>
+  <use_src_access>0</use_src_access>
+  <Relationships>
+   <Item type="Property" id="B93ABAA366AE48CE8354EB4513D045EE" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>float</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Average Build Time</label>
+    <name>rl_avg_build_time</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Assembler" type="ItemType" name="Assembler">61C3592E4B894E0CAC157C2BB7ADEA47</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" id="DDFDC7DEADD24561A356D093A361E4B6" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>integer</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Count</label>
+    <name>rl_build_count</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Assembler" type="ItemType" name="Assembler">61C3592E4B894E0CAC157C2BB7ADEA47</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" id="759C14E272834FBAAE89167DF33CAD05" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">Builder</label>
+    <name>rl_builder</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Assembler" type="ItemType" name="Assembler">61C3592E4B894E0CAC157C2BB7ADEA47</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="View" id="1D9601BF2E8F4D678348CD6A6613BA4B" action="add">
+    <client>js</client>
+    <related_id keyed_name="Assembler" type="Form">6C55A99394844FA3A60D032693233347</related_id>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Assembler" type="ItemType" name="Assembler">61C3592E4B894E0CAC157C2BB7ADEA47</source_id>
+    <type>default</type>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="ItemType" id="61C3592E4B894E0CAC157C2BB7ADEA47" action="edit">
+  <Relationships>
+   <Item type="Property" action="edit" where="source_id='61C3592E4B894E0CAC157C2BB7ADEA47' and name='generation'">
+    <column_alignment>left</column_alignment>
+    <data_type>integer</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <name>generation</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>2816</sort_order>
+    <source_id keyed_name="Assembler" type="ItemType" name="Assembler">61C3592E4B894E0CAC157C2BB7ADEA47</source_id>
+    <track_history>0</track_history>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

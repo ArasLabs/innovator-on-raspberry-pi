@@ -1,0 +1,162 @@
+﻿<AML>
+ <Item type="ItemType" id="F3B040F964044F02A472BBA79172DFEE" action="add">
+  <allow_private_permission>1</allow_private_permission>
+  <auto_search>0</auto_search>
+  <enforce_discovery>1</enforce_discovery>
+  <hide_where_used>0</hide_where_used>
+  <implementation_type>table</implementation_type>
+  <instance_data>SERIAL_NUMBER</instance_data>
+  <is_dependent>0</is_dependent>
+  <is_relationship>0</is_relationship>
+  <is_versionable>0</is_versionable>
+  <label xml:lang="en">Serial Number</label>
+  <label_plural xml:lang="en">Serial Numbers</label_plural>
+  <manual_versioning>0</manual_versioning>
+  <name>Serial Number</name>
+  <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+  <show_parameters_tab>1</show_parameters_tab>
+  <unlock_on_logout>0</unlock_on_logout>
+  <use_src_access>0</use_src_access>
+  <Relationships>
+   <Item type="Allowed Permission" id="F7A76E3F263B4579AA3BB6BD74E29AAA" action="add">
+    <is_default>1</is_default>
+    <related_id keyed_name="New Serial Number" type="Permission">97BA455F2E614881951D04BB2E7B556E</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Serial Number" type="ItemType" name="Serial Number">F3B040F964044F02A472BBA79172DFEE</source_id>
+   </Item>
+  
+   <Item type="Can Add" id="F39D01EDEEA8488EB908919C8AE65B0D" action="add">
+    <can_add>1</can_add>
+    <related_id keyed_name="All Employees" type="Identity">B32BD81D1AD04207BF1E61E39A4E0E13</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Serial Number" type="ItemType" name="Serial Number">F3B040F964044F02A472BBA79172DFEE</source_id>
+   </Item>
+   <Item type="ItemType Life Cycle" id="53EE71B252584B33A2FA62DF517F4907" action="add">
+    <related_id keyed_name="Serial Number" type="Life Cycle Map">52475F4D8EAF4DBA82F09B19E48E2D7A</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Serial Number" type="ItemType" name="Serial Number">F3B040F964044F02A472BBA79172DFEE</source_id>
+   </Item>
+   <Item type="Property" id="EF5752D01DC34E34A632E33A487E76C6" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>date</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Build Date</label>
+    <name>rl_build_date</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Serial Number" type="ItemType" name="Serial Number">F3B040F964044F02A472BBA79172DFEE</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" id="09FB10CAF8154BE0AD0CDCF6F0E3F58A" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">Builder</label>
+    <name>rl_builder</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Serial Number" type="ItemType" name="Serial Number">F3B040F964044F02A472BBA79172DFEE</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" id="15136D6FA2A44AA2B280CCDBE309DDFB" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>float</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Time to Build</label>
+    <name>rl_time_to_build</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Serial Number" type="ItemType" name="Serial Number">F3B040F964044F02A472BBA79172DFEE</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" id="96C3DB320845467CBB9CCF3556565BC9" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="Part Serial Number">B09BE573460D4B3D848EA6250F470041</data_source>
+    <data_type>sequence</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <keyed_name_order>1</keyed_name_order>
+    <label xml:lang="en">Serial Number</label>
+    <name>serial_number</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>20</sort_order>
+    <source_id keyed_name="Serial Number" type="ItemType" name="Serial Number">F3B040F964044F02A472BBA79172DFEE</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="View" id="81FA842D713D4AA98B062856753AF719" action="add">
+    <client>js</client>
+    <related_id keyed_name="Serial Number" type="Form">DD610CEFFE3644EFBDA4E2FE44CC4CEC</related_id>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Serial Number" type="ItemType" name="Serial Number">F3B040F964044F02A472BBA79172DFEE</source_id>
+    <type>default</type>
+   </Item></Relationships>
+ </Item>
+ <Item type="ItemType" id="F3B040F964044F02A472BBA79172DFEE" action="edit">
+  <Relationships>
+   <Item type="Property" action="edit" where="source_id='F3B040F964044F02A472BBA79172DFEE' and name='generation'">
+    <column_alignment>left</column_alignment>
+    <data_type>integer</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <name>generation</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>2816</sort_order>
+    <source_id keyed_name="Serial Number" type="ItemType" name="Serial Number">F3B040F964044F02A472BBA79172DFEE</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='F3B040F964044F02A472BBA79172DFEE' and name='state'">
+    <column_alignment>center</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">State</label>
+    <name>state</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>1792</sort_order>
+    <source_id keyed_name="Serial Number" type="ItemType" name="Serial Number">F3B040F964044F02A472BBA79172DFEE</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

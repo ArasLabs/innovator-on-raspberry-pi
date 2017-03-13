@@ -1,0 +1,41 @@
+﻿<AML>
+ <Item type="Life Cycle Map" id="52475F4D8EAF4DBA82F09B19E48E2D7A" action="add">
+  <description>Serial Number for Parts</description>
+  <name>Serial Number</name>
+  <start_state keyed_name="In Progress" type="Life Cycle State">18EFCBA1C86D4A668CB3BE669EBC6156</start_state>
+  <Relationships>
+   <Item type="Life Cycle State" id="91F81441C6424A72932B53BB5D87AF3A" action="add">
+    <image>../images/icons/20x20/20x15_lifecycle.gif</image>
+    <name>Assembled</name>
+    <set_is_released>0</set_is_released>
+    <set_not_lockable>0</set_not_lockable>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Serial Number" type="Life Cycle Map">52475F4D8EAF4DBA82F09B19E48E2D7A</source_id>
+    <x>297</x>
+    <y>132</y>
+   </Item>
+   <Item type="Life Cycle State" id="18EFCBA1C86D4A668CB3BE669EBC6156" action="add">
+    <image>../images/icons/20x20/20x15_lifecycle.gif</image>
+    <name>In Progress</name>
+    <set_is_released>0</set_is_released>
+    <set_not_lockable>0</set_not_lockable>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Serial Number" type="Life Cycle Map">52475F4D8EAF4DBA82F09B19E48E2D7A</source_id>
+    <x>127</x>
+    <y>132</y>
+   </Item>
+   <Item type="Life Cycle Transition" id="3A75B1A258FB4A7CBCF4B41BA4A27AC8" action="add">
+    <from_state keyed_name="In Progress" type="Life Cycle State">18EFCBA1C86D4A668CB3BE669EBC6156</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Serial Number" type="Life Cycle Map">52475F4D8EAF4DBA82F09B19E48E2D7A</source_id>
+    <to_state keyed_name="Assembled" type="Life Cycle State">91F81441C6424A72932B53BB5D87AF3A</to_state>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

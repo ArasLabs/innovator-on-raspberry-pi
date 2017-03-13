@@ -1,0 +1,101 @@
+﻿<AML>
+ <Item type="Form" id="DD610CEFFE3644EFBDA4E2FE44CC4CEC" action="add">
+  <name>Serial Number</name>
+  <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
+  <Relationships>
+   <Item type="Body" id="9A4649BF62A6464580553BCB37121661" action="add">
+    <bg_attach>scroll</bg_attach>
+    <bg_color>#FFFFFF</bg_color>
+    <bg_image>../images/Backgrounds/wvleft.gif</bg_image>
+    <bg_repeat>no-repeat</bg_repeat>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Serial Number" type="Form">DD610CEFFE3644EFBDA4E2FE44CC4CEC</source_id>
+    <Relationships>
+     <Item type="Field" id="6C9D13248F0742BBB84408BEB315CB9F" action="add">
+      <field_type>html</field_type>
+      <html_code><![CDATA[<span id='ITEM_INFO_INTERNAL_SPAN'/>
+<script>
+  populate_ITEM_INFO_INTERNAL_SPAN = function()
+  {
+    document.getElementById('ITEM_INFO_INTERNAL_SPAN').innerHTML = top.aras.uiGetItemInfoTable(document.itemType);
+  }
+  window.attachEvent('onload', populate_ITEM_INFO_INTERNAL_SPAN);
+</script>]]></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <list_no_blank>0</list_no_blank>
+      <name>item_info</name>
+      <sort_order>512</sort_order>
+      <source_id keyed_name="9A4649BF62A6464580553BCB37121661" type="Body">9A4649BF62A6464580553BCB37121661</source_id>
+      <tab_stop>0</tab_stop>
+      <x>0</x>
+      <y>0</y>
+     </Item>
+     <Item type="Field" id="17C18FC525DE4A4B9E200223789AD335" action="add">
+      <border_width>0</border_width>
+      <field_type>date</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Build Date</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>rl_build_date</name>
+      <propertytype_id keyed_name="rl_build_date" type="Property">EF5752D01DC34E34A632E33A487E76C6</propertytype_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="9A4649BF62A6464580553BCB37121661" type="Body">9A4649BF62A6464580553BCB37121661</source_id>
+      <tab_index>128</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>190</x>
+      <y>10</y>
+     </Item>
+     <Item type="Field" id="67B2C356BE9E4F35BE88C65D56B424CE" action="add">
+      <border_width>0</border_width>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">rl_builder</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>rl_builder</name>
+      <propertytype_id keyed_name="rl_builder" type="Property">09FB10CAF8154BE0AD0CDCF6F0E3F58A</propertytype_id>
+      <sort_order>384</sort_order>
+      <source_id keyed_name="9A4649BF62A6464580553BCB37121661" type="Body">9A4649BF62A6464580553BCB37121661</source_id>
+      <tab_index>384</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>190</x>
+      <y>90</y>
+     </Item>
+     <Item type="Field" id="F236BA3D4E71494EACCA4E064DFD933C" action="add">
+      <border_width>0</border_width>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Time to Build</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>rl_time_to_build</name>
+      <propertytype_id keyed_name="rl_time_to_build" type="Property">15136D6FA2A44AA2B280CCDBE309DDFB</propertytype_id>
+      <sort_order>256</sort_order>
+      <source_id keyed_name="9A4649BF62A6464580553BCB37121661" type="Body">9A4649BF62A6464580553BCB37121661</source_id>
+      <tab_index>256</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>190</x>
+      <y>50</y>
+     </Item>
+    </Relationships>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

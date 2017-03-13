@@ -1,0 +1,97 @@
+﻿<AML>
+ <Item type="Permission" id="232AE590331D40369C1B2AAC40CFBDA0" action="add">
+  <is_private>0</is_private>
+  <name>New Assembly Instruction</name>
+  <Relationships>
+   <Item type="Access" id="B3039619102D4238AD559C0A7310D6E6" action="add">
+    <can_change_access>0</can_change_access>
+    <can_delete>0</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>0</can_update>
+    <related_id keyed_name="All Employees" type="Identity">B32BD81D1AD04207BF1E61E39A4E0E13</related_id>
+    <show_permissions_warning>0</show_permissions_warning>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="New Assembly Instruction" type="Permission">232AE590331D40369C1B2AAC40CFBDA0</source_id>
+   </Item>
+   <Item type="Access" id="E2E3DAD151B141FFB69BB92B0CB89E19" action="add">
+    <can_change_access>1</can_change_access>
+    <can_delete>1</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="Aras PLM" type="Identity">56A96DA9E981481688563E2D14D5D878</related_id>
+    <show_permissions_warning>0</show_permissions_warning>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="New Assembly Instruction" type="Permission">232AE590331D40369C1B2AAC40CFBDA0</source_id>
+   </Item>
+  
+   <Item type="Access" id="2C913BA7B01D47B5BE16C69F94163D09" action="add">
+    <can_change_access>1</can_change_access>
+    <can_delete>1</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="Creator" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>Creator</name>
+     </Item>
+    </related_id>
+    <show_permissions_warning>0</show_permissions_warning>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="New Assembly Instruction" type="Permission">232AE590331D40369C1B2AAC40CFBDA0</source_id>
+   </Item>
+   <Item type="Access" id="A421A5BCBF5040E58B45EB0DF47F6551" action="add">
+    <can_change_access>0</can_change_access>
+    <can_delete>0</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="Manager" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>Manager</name>
+     </Item>
+    </related_id>
+    <show_permissions_warning>0</show_permissions_warning>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="New Assembly Instruction" type="Permission">232AE590331D40369C1B2AAC40CFBDA0</source_id>
+   </Item>
+   <Item type="Access" id="53687B3B31C3412289724338F4B250CA" action="add">
+    <can_change_access>1</can_change_access>
+    <can_delete>1</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="Owner" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>Owner</name>
+     </Item>
+    </related_id>
+    <show_permissions_warning>0</show_permissions_warning>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="New Assembly Instruction" type="Permission">232AE590331D40369C1B2AAC40CFBDA0</source_id>
+   </Item>
+   <Item type="Access" id="C692F62A7EBB42B98B86BE6BB492F5BB" action="add">
+    <can_change_access>0</can_change_access>
+    <can_delete>0</can_delete>
+    <can_discover>0</can_discover>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="QP Admin" type="Identity">66022731E81D4040A155F13CD083826A</related_id>
+    <show_permissions_warning>0</show_permissions_warning>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="New Assembly Instruction" type="Permission">232AE590331D40369C1B2AAC40CFBDA0</source_id>
+   </Item>
+   <Item type="Access" id="E0A186319BCE408B9BAE6FCBFAC96209" action="add">
+    <can_change_access>0</can_change_access>
+    <can_delete>0</can_delete>
+    <can_discover>0</can_discover>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="Quality Planning" type="Identity">59C3B3567DA441529BB265886514C907</related_id>
+    <show_permissions_warning>0</show_permissions_warning>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="New Assembly Instruction" type="Permission">232AE590331D40369C1B2AAC40CFBDA0</source_id>
+   </Item></Relationships>
+ </Item>
+</AML>

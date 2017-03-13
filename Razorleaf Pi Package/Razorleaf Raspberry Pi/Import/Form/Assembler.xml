@@ -1,0 +1,102 @@
+﻿<AML>
+ <Item type="Form" id="6C55A99394844FA3A60D032693233347" action="add">
+  <name>Assembler</name>
+  <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
+  <Relationships>
+   <Item type="Body" id="1827A6628A2D42269D8F3AE45C33D59E" action="add">
+    <bg_attach>scroll</bg_attach>
+    <bg_color>#FFFFFF</bg_color>
+    <bg_image>../images/Backgrounds/wvleft.gif</bg_image>
+    <bg_repeat>no-repeat</bg_repeat>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Assembler" type="Form">6C55A99394844FA3A60D032693233347</source_id>
+    <Relationships>
+     <Item type="Field" id="51AFA0293D674330A78F820319C832D6" action="add">
+      <field_type>html</field_type>
+      <html_code><![CDATA[<span id='ITEM_INFO_INTERNAL_SPAN'/>
+<script>
+  populate_ITEM_INFO_INTERNAL_SPAN = function()
+  {
+    document.getElementById('ITEM_INFO_INTERNAL_SPAN').innerHTML = top.aras.uiGetItemInfoTable(document.itemType);
+  }
+  window.attachEvent('onload', populate_ITEM_INFO_INTERNAL_SPAN);
+</script>]]></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <list_no_blank>0</list_no_blank>
+      <name>item_info</name>
+      <sort_order>512</sort_order>
+      <source_id keyed_name="1827A6628A2D42269D8F3AE45C33D59E" type="Body">1827A6628A2D42269D8F3AE45C33D59E</source_id>
+      <tab_stop>0</tab_stop>
+      <x>0</x>
+      <y>0</y>
+     </Item>
+     <Item type="Field" id="A996F6C6C6E246A2B39D196502421754" action="add">
+      <border_width>0</border_width>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Average Build Time</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>rl_avg_build_time</name>
+      <propertytype_id keyed_name="rl_avg_build_time" type="Property">B93ABAA366AE48CE8354EB4513D045EE</propertytype_id>
+      <sort_order>384</sort_order>
+      <source_id keyed_name="1827A6628A2D42269D8F3AE45C33D59E" type="Body">1827A6628A2D42269D8F3AE45C33D59E</source_id>
+      <tab_index>384</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>190</x>
+      <y>90</y>
+     </Item>
+     <Item type="Field" id="CD1ED5D7BDC64C5EAE62EAFED674A6DD" action="add">
+      <border_width>0</border_width>
+      <display_length>6</display_length>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Count</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>rl_build_count</name>
+      <propertytype_id keyed_name="rl_build_count" type="Property">DDFDC7DEADD24561A356D093A361E4B6</propertytype_id>
+      <sort_order>256</sort_order>
+      <source_id keyed_name="1827A6628A2D42269D8F3AE45C33D59E" type="Body">1827A6628A2D42269D8F3AE45C33D59E</source_id>
+      <tab_index>256</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>190</x>
+      <y>50</y>
+     </Item>
+     <Item type="Field" id="7A5077AC92AC401488E4FEA10409B86C" action="add">
+      <border_width>0</border_width>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Builder</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>rl_builder</name>
+      <propertytype_id keyed_name="rl_builder" type="Property">759C14E272834FBAAE89167DF33CAD05</propertytype_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="1827A6628A2D42269D8F3AE45C33D59E" type="Body">1827A6628A2D42269D8F3AE45C33D59E</source_id>
+      <tab_index>128</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>190</x>
+      <y>10</y>
+     </Item>
+    </Relationships>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>
