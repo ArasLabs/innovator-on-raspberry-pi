@@ -7,7 +7,7 @@
 
 At the 2013 Aras ACE conference, Razorleaf presented a proof-of-concept project using a [Raspberry Pi](http://www.raspberrypi.org/) as a special purpose Aras Innovator client. The special purpose client was intended to simulate a shop floor system to deliver assembly instructions. The assembly instructions are managed inside Innovator.
 
-If you are not familiar with the Raspberry Pi is a credit card sized, single board computer that runs Linux. This was my first project using Linux and I decided to use the Python programming language. The project also took advantage of the Raspberry Pi’s general purpose IO (GPIO) to provide the user a simple hardware button interface to advance through the assembly instructions.
+If you are not familiar with the [Raspberry Pi](https://www.raspberrypi.org/) is a credit card sized, single board computer that runs Linux. This was my first project using Linux and I decided to use the Python programming language. The project also took advantage of the Raspberry Pi’s general purpose IO (GPIO) to provide the user a simple hardware button interface to advance through the assembly instructions.
 
 ## History
 
