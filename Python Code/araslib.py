@@ -1,7 +1,7 @@
 #class that takes aml portion of soap call and returns result
 # holds connection and user information
 
-import sys, httplib
+import httplib
 
 innovatorServer = "169.254.64.111"
 innovatorApp = "93sp6"

@@ -1,15 +1,12 @@
-import os
 import pygame
 from pygame.locals import *
 import time
-import random
 import part
 import urllib2
 import StringIO
 import string
 from time import sleep
 import RPi.GPIO as GPIO
-from time import sleep
 
 
 
